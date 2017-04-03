@@ -37,10 +37,10 @@ class Scrape
 	end
 
 	scrape = Scrape.new
-	scrape.iidx_scrape(Iidx_Level8,'http://textage.cc/score/?s811B00')
-	scrape.iidx_scrape(Iidx_Level9,'http://textage.cc/score/?s911B00')
+	#scrape.iidx_scrape(Iidx_Level8,'http://textage.cc/score/?s811B00')
+	#scrape.iidx_scrape(Iidx_Level9,'http://textage.cc/score/?s911B00')
 	scrape.iidx_scrape(Iidx_Level10,'http://textage.cc/score/?sA11B00')
-	scrape.iidx_scrape(Iidx_Level11,'http://textage.cc/score/?sB11B00')
-	scrape.iidx_scrape(Iidx_Level12,'http://textage.cc/score/?sC11B00')
+	#scrape.iidx_scrape(Iidx_Level11,'http://textage.cc/score/?sB11B00')
+	#scrape.iidx_scrape(Iidx_Level12,'http://textage.cc/score/?sC11B00')
 
 end
