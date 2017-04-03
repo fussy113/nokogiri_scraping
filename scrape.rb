@@ -2,7 +2,6 @@ class Scrape
 	require 'capybara'
 	require 'capybara/dsl'
 	require 'capybara/poltergeist'
-	require 'pry'
 	require_relative 'models/iidx_level12'
 	require_relative 'models/iidx_level11'
 	require_relative 'models/iidx_level10'
