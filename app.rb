@@ -9,7 +9,7 @@ def client
 	end
 end
 
-get '/' do 'Hello Heroku!' end
+get '/' do 'Hello Heroku!!' end
 
 post '/linebot/callback' do
 	body      = request.body.read
