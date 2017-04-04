@@ -12,8 +12,7 @@ get "/iidx_level10s" do
 end
 
 get "/iidx_level10s/random" do
-	id = rand(Iidx_Level10.count) + 1
-	Iidx_Level10.find(id).to_json
+	Iidx_Level10.order("RAND()").first.to_json
 end
 
 get "/iidx_level10s/:id" do
