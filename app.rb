@@ -3,6 +3,10 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require_relative 'models/iidx_level10'
 
+get "/" do
+	"Hello Heroku!!"
+end
+
 get "/iidx_level10s" do
 	Iidx_Level10.all.to_json # 全てのPostを返す
 end
