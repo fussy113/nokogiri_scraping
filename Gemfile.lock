@@ -75,7 +75,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord
   capybara
   foreman
   mysql2 (= 0.4.2)
@@ -85,9 +84,6 @@ DEPENDENCIES
   rake
   sinatra
   sinatra-activerecord
-
-RUBY VERSION
-   ruby 2.2.4p230
 
 BUNDLED WITH
    1.13.6

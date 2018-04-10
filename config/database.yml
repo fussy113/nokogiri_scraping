@@ -1,16 +1,17 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: <%= ENV['DATABASE_NAME']%>
+  database: iidx_development
   pool: 2
   username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
   host: <%= ENV['HOST_NAME'] %>
+  socket: <%= ENV['MYSQL_SOCKET'] %>
 
 production:
   adapter: mysql2
   encoding: utf8
-  database: <%= ENV['DATABASE_NAME']%>
+  database: iidx_production
   pool: 2
   username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>

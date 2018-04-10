@@ -1,0 +1,11 @@
+/Users/fussy/.rbenv/versions/2.2.4/bin/ruby -r ./siteconf20180410-11912-26t12r.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20180410-11912-1gigh8s
