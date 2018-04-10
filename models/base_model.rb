@@ -5,6 +5,7 @@ class BaseModel < ActiveRecord::Base
       host: ENV['HOST_NAME'],
       username: ENV['DATABASE_USERNAME'],
       password: ENV['DATABASE_PASSWORD'],
-      database: ENV['DATABASE_NAME']
+      database: ENV['DATABASE_NAME'],
+      socket: ENV['MYSQL_SOCKET']
   )
 end

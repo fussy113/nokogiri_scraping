@@ -7,10 +7,9 @@ gem 'poltergeist'
 gem 'capybara'
 
 # database
-gem 'mysql2', '0.4.2'
+gem 'mysql2', '0.4.4'
 gem 'sinatra-activerecord'
 gem 'rake'
-
 group :development do
 	gem 'foreman'
 	gem 'pry'
